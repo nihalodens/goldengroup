@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.id{
+    width: 150px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    position: fixed;
+    width: 100%;
+}
+.list{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.sun{
+    text-decoration: none;
+    color: black;
+    font-size: 1.15rem;
+}
+.sun:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+.travel{
+    padding-top: 5%;
+    width: 100%;
+}
+h1{
+    margin-top: -50%;
+    margin-left: 900px;
+}
+#singam{
+    font-size: 2.15rem;
+    font-family: "Permanent Marker", cursive;
+}
+#drishym{
+    color:darkcyan;
+    font-family: "Pacifico", cursive;
+    text-decoration:underline;
+}
+#aha{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(15, 15, 28);
+}
+#has{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(15, 15, 28);
+}
+.col{
+    width: 100%;
+    height: 300px;
+    color: white;
+    margin-top: 8px;
+    padding: 50px;
+}
+h2{
+    margin-bottom: 10px;
+}
+#destination{
+    color:black;
+}
+button{
+    margin: 1px;
+    text-align: center;
+    width:260px;
+    background-color: red;
+    color: white;
+    border: 1px;
+}
+#razy{
+    font-size: 1.75rem;
+    padding: 50px;
+    text-align: center;
+}
+#bus{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.naseem{
+    margin: 0px 40px;
+    margin-left:160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+#razy1{
+    margin: 5px;
+    text-align: justify;
+}
+razy2{
+    margin: 5px;
+    text-align: justify;
+}
+razy3{
+    margin: 5px;
+    text-align: justify;
+}
+#razy4{
+    margin: 5px;
+    text-align: justify;
+}
+.vaaa{
+    width: 15%;
+}
+#al{
+    padding: 30px;
+    text-align: center;
+    margin-left: 160px;
+}
+.ransha{
+    width: 100%;
+    height: 450px;
+    display: grid;
+    grid-gap: 50px;
+    row-gap:50px ;
+    display: flex;
+    float: right;
+
+}
+.haseem{
+    width: 250px;
+    height: 260px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 180px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vaa{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+#ll{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+}
+#pl{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 20px;
+}
+#nn{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+}
+#nm{
+    text-align: center;
+    font-size: larger;
+}
+.shamil img{
+    width: 80%;
+}
+.shamil{
+    margin: 0px 30px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    height: 800px;
+
+}
+#nun{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 40px;
+}
+#fan{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#dom{
+    margin-left: 130px;
+}
+#inos{
+    margin-left: 90px;
+}
+#e{
+    margin-left:150px;
+}
+#dom1{
+    margin-left: 130px
+}
+#inos1{
+    margin-left:170px
+}
+#e1{
+    margin-left:180px
+}
+#dom2{
+    margin-left: 130px
+}
+#inos2{
+    margin-left:150px
+}
+#e2{
+    margin-left:170px
+}
+#dom3{
+    margin-left: 130px
+}
+#inos3{
+    margin-left:150px
+}
+#e3{
+    margin-left:160px
+}
+#dom4{
+    margin-left: 130px
+}
+#inos4{
+    margin-left:150px
+}
+#e4{
+    margin-left:160px
+}
+#dom5{
+    margin-left: 100px
+}
+#inos5{
+    margin-left:150px
+}
+#e5{
+    margin-left:160px
+}
+#bb{
+    height: 500px;
+    width: 80%;
+}
+#yy{
+    height: 500px;
+    width: 100%;
+}
+#labels{
+    margin-left: 380px;
+}
+#rr{
+    padding: 20px;
+    margin-left: 400px;
+}
+#inputs{
+    width: 100px;
+}
+#labels{
+    margin-left: 380px;
+}
+#inputs{
+    width: 300px;
+}
+#area{
+    padding: 80px;
+}
+#rr1{
+    margin-left: 1200px;
+    margin-top: -370px;
+}
+#rr2{
+    margin-left: 1200px;
+    
+}
+#wow{
+    background-color: green;
+    width: 100px;
+    margin-left: 620px;
+}
+.adill{
+    padding: 5px;
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+}
+footer{
+    background-color: black;
+}
+footer{
+    background-color: black;
+}
+#dd{
+    width: 100%;
+    height: 470px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.manju{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.kunju{
+    width: 30%;
+    height: 280px;
+    float: left;
+    margin-top: 60px;
+
+}
+li{
+   list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 20px;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: whitesmoke
+}
+::-webkit-scrollbar-thumb{
+    background-color:lightblue;
+    border-radius: 10px;
+}
